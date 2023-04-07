@@ -9,14 +9,24 @@
 </head>
 <body>
     <h1>My Library</h1>
-
-    <div class="button">
-        <button>+ Add Book</button>
-    </div>
     
     <div>
-        
+        <form>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="pages">Pages:</label><br>
+            <input type="text" id="pages" name="pages"><br>
+
+            <input type="checkbox" id="readStatus" name="readStatus" value="yes" checked>
+            <label for="readStatus">Read</label><br>
+            <input type="submit" id = "button" value = "Submit">
+
+        </form>
     </div>
+
+    <div class="container"></div>
     <script src="script.js"></script>
 </body>
 </html>
